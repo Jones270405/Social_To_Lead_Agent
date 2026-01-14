@@ -23,7 +23,8 @@
    
    - Open your terminal or preferred interface and interact with the agent.
 
-2. **Architecture Explanation**
+## 2.Architecture Explanation
+
 This project leverages LangGraph and AutoGen to build a conversational AI agent capable of knowledge retrieval, intent detection, and tool execution.
 
 *Why LangGraph / AutoGen:*
@@ -34,15 +35,16 @@ State is managed using an internal memory object that tracks user inputs, conver
 
 This architecture ensures modularity, scalability, and easy debugging, making it simple to extend the agent with additional intents, tools, or knowledge sources.
 
-3. **WhatsApp Deployment**
+## 3. WhatsApp Deployment
+
 To integrate this agent with WhatsApp, you can use the WhatsApp Business API or Twilio WhatsApp with webhooks:
 
-Set up a webhook URL in your server that listens for incoming WhatsApp messages.
-
-When a user sends a message, WhatsApp forwards it to your webhook.
-
-The webhook handler passes the message to your agent, which processes it (RAG, intent detection, lead capture, etc.).
-
-The agent generates a response and sends it back to the user via the WhatsApp API.
-
-This setup allows the conversational agent to function seamlessly on WhatsApp, handling messages, retrieving knowledge, qualifying leads, and executing tools in real-time.
+   - Set up a webhook URL in your server that listens for incoming WhatsApp messages.
+   
+   - When a user sends a message, WhatsApp forwards it to your webhook.
+   
+   - The webhook handler passes the message to your agent, which processes it (RAG, intent detection, lead capture, etc.).
+   
+   - The agent generates a response and sends it back to the user via the WhatsApp API.
+   
+   - This setup allows the conversational agent to function seamlessly on WhatsApp, handling messages, retrieving knowledge, qualifying leads, and executing tools in real-time.
