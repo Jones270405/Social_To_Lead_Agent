@@ -8,7 +8,7 @@
    cd <repo-folder>
 
 3. *Create a virtual environment:*
-   
+   ```bash
     python -m venv venv
    
     source venv/bin/activate  # For Linux/Mac
@@ -16,11 +16,11 @@
     venv\Scripts\activate     # For Windows
 
 5. *Install dependencies:*
-   
+   ```bash
     pip install -r requirements.txt
 
 7. *Run the application:*
-   
+   ```bash
     python app.py
 
 9. Open your terminal or preferred interface and interact with the agent.
