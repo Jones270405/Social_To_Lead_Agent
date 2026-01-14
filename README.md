@@ -2,26 +2,26 @@
 
 ## 1. How to Run the Project Locally
 
-1. *Clone the repository:*
-   ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
-
-3. *Create a virtual environment:*
-   ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Linux/Mac
-    venv\Scripts\activate     # For Windows
-
-5. *Install dependencies:*
-   ```bash
-    pip install -r requirements.txt
-
-7. *Run the application:*
-   ```bash
-    python app.py
-
-9. Open your terminal or preferred interface and interact with the agent.
+   1. *Clone the repository:*
+      ```bash
+      git clone <your-repo-url>
+      cd <repo-folder>
+   
+   2. *Create a virtual environment:*
+      ```bash
+       python -m venv venv
+       source venv/bin/activate  # For Linux/Mac
+       venv\Scripts\activate     # For Windows
+   
+   3. *Install dependencies:*
+      ```bash
+       pip install -r requirements.txt
+   
+   4. *Run the application:*
+      ```bash
+       python app.py
+   
+   5. Open your terminal or preferred interface and interact with the agent.
 
 2. **Architecture Explanation**
 This project leverages LangGraph and AutoGen to build a conversational AI agent capable of knowledge retrieval, intent detection, and tool execution.
