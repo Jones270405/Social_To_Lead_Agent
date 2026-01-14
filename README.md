@@ -3,7 +3,7 @@
 ## 1. How to Run the Project Locally
 
 1. *Clone the repository:*
-   
+   ```bash
    git clone <your-repo-url>
    cd <repo-folder>
 
